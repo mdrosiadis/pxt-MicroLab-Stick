@@ -1,0 +1,43 @@
+{
+    "name": "MicroLab Stick",
+    "version": "1.0.0",
+    "description": "Provides a Service to be used with MicroLab Stick",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "shims.d.ts",
+        "enums.d.ts",
+        "main.ts",
+        "microlabstick.cpp",
+        "MicrolabStickControllerService.h",
+        "MicrolabStickControllerService.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1,
+                    "pairing_mode": 0,
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    },
+    "disablesVariants": [
+        "mbdal"
+    ]
+}
