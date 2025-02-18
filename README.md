@@ -10,7 +10,6 @@ Fill the `on control packet received` block with the code to execute when a cont
 ## Supported targets
 for PXT/microbit
 
-#### Metadata (used for search, rendering)
+## License
+GPL-3.0
 
-* for PXT/
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
